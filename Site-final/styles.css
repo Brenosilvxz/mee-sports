@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.cabecalho {
+    color: black;
+    list-style: none;
+    background-color: red;
+}
+
+.lista {
+    gap: 3rem;
+}
+
+.cabecalho {
+    max-width: 1000px;
+}
+
+.cabecalho ul {
+    display: flex;
+    justify-content: space-around;
+}
