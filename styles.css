@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  color: rgb(42, 207, 42);
+  ext-shadow: 0 0 10px rgb(96, 226, 96)
+}
+body {
+    background: black;
+}
+.container {
+    max-width: 1000px;
+    margin: 2 auto;
+}
+
+.cabecalho {
+    top: 0;
+    max-width: 1000px;
+    margin: -100px auto;
+    justify-content: center;
+    display: flex;
+    max-width: 1000px;
+    font-family: "Russo One", sans-serif;
+    font-size: 15px;
+}
+
+.cabecalho ul {
+    display: flex;
+    gap: 3rem;
+}
+.logo {
+    width: 30%;
+    height: 50%;
+}
+.text {
+    margin-top: 200px;
+    text-align: center;
+    justify-content: center;
+
+}
