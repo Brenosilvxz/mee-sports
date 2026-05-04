@@ -1,67 +1,39 @@
 * {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  text-decoration: none;
-  color: white;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    list-style: none;
 }
 body {
-    background: linear-gradient(100deg, rgb(3, 70, 3), black)
+    background:linear-gradient(100deg, rgb(20, 82, 20), rgb(51, 239, 51));
 }
-.container {
-    max-width: 1000px;
-    margin: 2 auto;
-}
-
-.cabecalho {
-    top: 0;
-    max-width: 1000px;
-    margin: -100px auto;
-    justify-content: center;
+header {
     display: flex;
-    max-width: 1000px;
-    font-family: "Russo One", sans-serif;
-    font-size: 15px;
+    height: 100px;
+    background: black;
+    color: #fff;
     cursor: pointer;
+    font-size: 23px;
+     font-family: "Bungee", sans-serif;
 }
-ul a {
-    color: rgb(29, 233, 29);
+.contentHeader {
+margin: auto;
+max-width: 100%;
+width: 100%;
+display: flex;
+justify-content: space-between;
+
+}
+.imgpx {
+    height: 120%;
+    width: 20%;
+}
+header nav ul {
+    display: flex;
     text-decoration: none;
-    text-shadow:2px, rgb(5, 92, 5);
+    gap: 3rem;
 }
-
-.cabecalho ul {
-    display: flex;
-    gap: 2rem;
-    color: aliceblue;
-}
-.logo {
-    width: 30%;
-    height: 50%;
-}
-.text {
-    margin-top: 150px;
-    font-size: 10px;
-    display: flex;
-    gap: 2rem;
-    font-family: "Anton", sans-serif;
-
-}
-.imgs-principal {
-    width: 30%;
-    height: 30%;
-    border-radius: 5px;
-    display: flex;
-    justify-content: center;
-    margin: 25px;
-}
-.login {
-    position: absolute;
-    right: 0;
-}
-.menu-esportes {
-    position: absolute;
-    top: calc(10% + 30px);
-    background-color: black;
-    flex-direction: column;
+header nav ul a:hover {
+    text-decoration: underline;
+    color: rgb(53, 145, 53);
 }
