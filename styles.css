@@ -3,8 +3,7 @@
   padding: 0;
   list-style: none;
   text-decoration: none;
-  color: rgb(42, 207, 42);
-  ext-shadow: 0 0 10px rgb(96, 226, 96)
+  color: white;
 }
 body {
     background: black;
@@ -24,18 +23,37 @@ body {
     font-family: "Russo One", sans-serif;
     font-size: 15px;
 }
+ul a {
+    color: rgb(29, 233, 29);
+    text-decoration: none;
+    text-shadow: green;
+}
 
 .cabecalho ul {
     display: flex;
-    gap: 3rem;
+    gap: 2rem;
+    color: aliceblue;
 }
 .logo {
     width: 30%;
     height: 50%;
 }
 .text {
-    margin-top: 200px;
-    text-align: center;
+    margin-top: 150px;
+    font-size: 10px;
+    display: flex;
+    gap: 2rem;
+    font-family: "Anton", sans-serif;
+
+}
+.imgs-principal {
+    width: 30%;
+    height: 30%;
+    border-radius: 5px;
+    display: flex;
     justify-content: center;
+    margin: 25px;
+}
+.login {
 
 }
