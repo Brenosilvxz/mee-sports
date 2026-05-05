@@ -3,10 +3,11 @@
     padding: 0;
     color: #fff;
     list-style: none;
-     
+    text-decoration: none;
 }
 body {
     background:linear-gradient(100deg, rgb(20, 82, 20), rgb(51, 239, 51));
+    overflow hidden;
 }
 header {
     display: flex;
@@ -43,4 +44,9 @@ i:hover {
 }
 .atention {
     font-size: 20px;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.carrosel {
+
 }
