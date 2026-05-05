@@ -3,6 +3,7 @@
     padding: 0;
     color: #fff;
     list-style: none;
+     
 }
 body {
     background:linear-gradient(100deg, rgb(20, 82, 20), rgb(51, 239, 51));
@@ -36,4 +37,10 @@ header nav ul {
 header nav ul a:hover {
     text-decoration: underline;
     color: rgb(53, 145, 53);
+}
+i:hover {
+    color: rgb(53, 145, 53);;
+}
+.atention {
+    font-size: 20px;
 }
