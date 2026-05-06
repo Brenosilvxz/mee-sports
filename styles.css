@@ -18,6 +18,7 @@ header {
     font-size: 20px;
      font-family: "Bungee", sans-serif;
      border: 2px solid, white;
+     text-shadow: 1px 1px rgb(53, 145, 53);
 }
 .contentHeader {
 margin: auto;
@@ -25,10 +26,6 @@ max-width: 100%;
 width: 100%;
 display: flex;
 justify-content: space-between; 
-}
-.imgpx {
-    height: 120%;
-    width: 40%%;
 }
 header nav ul {
     display: flex;
@@ -38,27 +35,54 @@ header nav ul {
 header nav ul a:hover {
     text-decoration: underline;
     color: rgb(53, 145, 53);
+    text-shadow: 1px 1px #fff;
 }
 i:hover {
     color: rgb(53, 145, 53);;
+    text-shadow: 1px 1px #fff;
 }
 .atention {
     font-size: 20px;
     font-family: "Roboto Condensed", sans-serif;
+    margin: 40px;
 }
-.text-img{
-    font-family: "Roboto Condensed", sans-serif;
-    font-size: 23px;
-    margin: 20px;
+.cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    
 }
-
-.carrosel {
-
+.card {
+    background: #fff;
+    max-width: 300px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid black ;
+    position: relative;
 }
-.imgs-carrosel {
-    border-radius: 20px;
-    margin: 20px;
+.imgCard {
+    width: 300px;
+    height: 300px;
 }
-content {
+article h2 {
+    color: black;
+    font-family: "Bungee", sans-serif;
+}
+article p {
+    color: black;
+     font-family: "Roboto Condensed", sans-serif;
+     font-size: 20px;
+}
+.categoria {
     position: absolute;
+    top: 15px;
+    left: 15px;
+    background: #8cff00;
+    text-shadow: 1px 1px  white;
+    color: black;
+    font-size: 12px;
+    padding: 5px;
+     font-family: "Archivo Black", sans-serif;
 }
