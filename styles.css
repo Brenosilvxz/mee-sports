@@ -37,7 +37,7 @@ header nav ul a:hover {
     color: rgb(53, 145, 53);
     text-shadow: 1px 1px #fff;
 }
-i:hover {
+ header i:hover {
     color: rgb(53, 145, 53);;
     text-shadow: 1px 1px #fff;
 }
@@ -51,7 +51,7 @@ i:hover {
     justify-content: space-around;
     flex-wrap: wrap;
     padding: 20px;
-    
+    flex-direction: column;
 }
 .card {
     background: #fff;
@@ -85,4 +85,28 @@ article p {
     font-size: 12px;
     padding: 5px;
      font-family: "Archivo Black", sans-serif;
+}
+article a {
+    color: #8cff00;
+     font-family: "Bungee", sans-serif;
+}
+article a:hover{
+    text-decoration: underline;
+    text-shadow: 1px 1px black;
+}
+
+
+
+.voltar {
+    font-size:30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.background {
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
 }
