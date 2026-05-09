@@ -163,11 +163,10 @@ article p a {
     padding: 0px 60px;
     margin-top: 10px;
 }
- 
-.carrosel {
+.box a {
     display: flex;
-}
-.pximgcarrosel {
-    width: 50%;
-    height: 50%;
+    flex-direction: column;
+    background: #fff;
+    text-shadow: none;
+    color: black;
 }
