@@ -190,7 +190,8 @@ article p a {
     border: 2px solid black;
     background: #fff;
     font-family: "Bungee", sans-serif;   
-    max-width: 700px;
+    max-width: 330px;
+    line-height: 40px;
 }
 .textf1 a {
     color: #8cff00;
