@@ -170,3 +170,33 @@ article p a {
     text-shadow: none;
     color: black;
 }
+.container {
+    display: flex;
+}
+.carroselpx {
+    width: 700px;
+    height: 700px; 
+    padding-left: 330px;
+    border-radius: 20px ;
+    position: relative;
+    margin-top: 20px;
+    background: #fff;
+}
+.textf1 {
+    margin-top: 20px;
+    margin-left: 380px;
+    position: absolute;
+    color: black;
+    border: 2px solid black;
+    background: #fff;
+    font-family: "Bungee", sans-serif;   
+    max-width: 700px;
+}
+.textf1 a {
+    color: #8cff00;
+     font-family: "Bungee", sans-serif;
+}
+.textf1 a:hover {
+    text-decoration: underline;
+    text-shadow: 1px 1px black;
+}
