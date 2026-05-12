@@ -97,7 +97,6 @@ h1 {
     justify-content: space-around;
     flex-wrap: wrap;
     padding: 20px;
-    flex-direction: column;
 }
 .card {
     background: #fff;
@@ -171,69 +170,24 @@ article p a {
     text-shadow: none;
     color: black;
 }
-.container {
-    display: flex;
-}
-.carroselpx img {
-    width: 600px;
-    height: 600px; 
-    padding-left: 400px;
-    border-radius: 20px ;
-    position: relative;
-    margin-top: 20px;
-    background: #fff;
-    box-shadow: 7px 7px rgb(0, 0, 0);
-    position: relative;
-}
-.textf1 {
-    margin-top: -605px;
-    margin-left: px;
-    position: absolute;
-    color: #fff;
-    border: 1px solid rgb(255, 247, 247);
-    background-color: black;
-    font-family: "Bungee", sans-serif;   
-    max-width: 400px;
-    line-height: 40px;
-    border-radius: 5px;
 
+.carrossel {
+    position: relative;
 }
-.textf1 a {
-    color: #8cff00;
-    font-family: "Bungee", sans-serif;
+.list {
+    width: 70vw;
+    height: 100%;
+    margin: auto;
+    position: relative;
 }
-.textf1 a:hover {
-    text-decoration: underline;
-    text-shadow: 1px 1px white;
-}
-.carrosel2px {
-    width: 200px;
-    height: 200px;
-    margin-top: -483px;
+.item {
     position: absolute;
-    padding-left: 0px;
-    display: flex;
-    
+    inset: 0;
 }
-.textlando {
-     margin-top: -270px;
-     padding-left: 30px;
-     color: black;
-     position: absolute;
-     font-size: 35px;
-     font-family: "Bungee", sans-serif;
-     max-width: 400px;
-}
-.carrosel3px {
-    width: 200px;
-    height: 200px;
-    margin-top: -483px;
+.carrosselimg {
     position: absolute;
-    padding-left: 200px;
 }
-.next i {
-    margin-top: 300px;
-    position: absolute;
-    font-size: 50px;
-    padding-right: 100px;
+.px {
+    width: 700px;
+    height: 500px;
 }
