@@ -82,6 +82,7 @@ header nav ul a:hover {
 
 h1 {
     text-shadow: 4px 4px black;
+    font-size: 50px;
 
 }
 
@@ -173,31 +174,66 @@ article p a {
 .container {
     display: flex;
 }
-.carroselpx {
-    width: 700px;
-    height: 700px; 
-    padding-left: 330px;
+.carroselpx img {
+    width: 600px;
+    height: 600px; 
+    padding-left: 400px;
     border-radius: 20px ;
     position: relative;
     margin-top: 20px;
     background: #fff;
+    box-shadow: 7px 7px rgb(0, 0, 0);
+    position: relative;
 }
 .textf1 {
-    margin-top: 20px;
-    margin-left: 380px;
+    margin-top: -605px;
+    margin-left: px;
     position: absolute;
-    color: black;
-    border: 2px solid black;
-    background: #fff;
+    color: #fff;
+    border: 1px solid rgb(255, 247, 247);
+    background-color: black;
     font-family: "Bungee", sans-serif;   
-    max-width: 330px;
+    max-width: 400px;
     line-height: 40px;
+    border-radius: 5px;
+
 }
 .textf1 a {
     color: #8cff00;
-     font-family: "Bungee", sans-serif;
+    font-family: "Bungee", sans-serif;
 }
 .textf1 a:hover {
     text-decoration: underline;
-    text-shadow: 1px 1px black;
+    text-shadow: 1px 1px white;
+}
+.carrosel2px {
+    width: 200px;
+    height: 200px;
+    margin-top: -483px;
+    position: absolute;
+    padding-left: 0px;
+    display: flex;
+    
+}
+.textlando {
+     margin-top: -270px;
+     padding-left: 30px;
+     color: black;
+     position: absolute;
+     font-size: 35px;
+     font-family: "Bungee", sans-serif;
+     max-width: 400px;
+}
+.carrosel3px {
+    width: 200px;
+    height: 200px;
+    margin-top: -483px;
+    position: absolute;
+    padding-left: 200px;
+}
+.next i {
+    margin-top: 300px;
+    position: absolute;
+    font-size: 50px;
+    padding-right: 100px;
 }
