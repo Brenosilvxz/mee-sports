@@ -6,51 +6,24 @@
     text-decoration: none;
 }
 body {
-    background:linear-gradient(100deg, rgb(20, 75, 20), rgb(14, 83, 14));
-    overflow hidden;
-    max-height: 100vh;
+    background: black ;
+    z-index: 2;
     
 }
-
-.bg-circle {
-     position: absolute;
-    border-radius: 50%;
-    filter: blur(80px);
-    opacity: 0.3;
-    animation: mover 8s infinite alternate ease-in-out;
+.main {
+    position: relative;
+    z-index: 2;
 }
-
-
-.circle1 {
-    width: 250px;
-    height: 250px;
-    background: #00ff15;
-    bottom: -50px;
-    right: -50px;
-}
-
-@keyframes mover {
-    from {
-        transform: translateY(0px) translateX(0px);
-    }
-
-    to {
-        transform: translateY(40px) translateX(30px);
-    }
-}
-
-
 
 header {
     display: flex;
     height: 100px;
-    background: black;
+    background: rgb(43, 42, 42);
     color: #fff;
     cursor: pointer;
     font-size: 20px;
      font-family: "Bungee", sans-serif;
-     border: 2px solid, white;
-     text-shadow: 1px 1px rgb(53, 145, 53);
+     border: 2px solid, rgb(129, 10, 10);
      position: fixed;
      width: 100%;
      z-index: 999;
@@ -71,12 +44,12 @@ header nav ul {
 }
 header nav ul a:hover {
     text-decoration: underline;
-    color: rgb(53, 145, 53);
-    text-shadow: 1px 1px #fff;
+    color: rgb(145, 32, 12);
+    text-shadow: 2px 2px black;
 }
  header i:hover {
-    color: rgb(53, 145, 53);;
-    text-shadow: 1px 1px #fff;
+    color: rgb(145, 32, 12);;
+
     
 }
 
@@ -92,6 +65,14 @@ h1 {
     margin: 40px;
     margin-top: 139px;
 }
+.car img {
+  width: 300px;  
+  height: 200px;
+  margin-left: 80%;
+  margin-top: -200px;
+  background: radial-gradient(rgb(214, 11, 11), black);
+  border-radius: 50px;
+}
 .cards {
     display: flex;
     justify-content: space-around;
@@ -104,7 +85,7 @@ h1 {
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 10px;
-    border: 1px solid black ;
+    border: 3px solid rgb(197, 29, 29) ;
     position: relative;
 }
 .imgCard {
@@ -124,15 +105,14 @@ article p {
     position: absolute;
     top: 15px;
     left: 15px;
-    background: #8cff00;
-    text-shadow: 1px 1px  white;
+    background: #9b1f00;
     color: black;
     font-size: 12px;
     padding: 5px;
      font-family: "Archivo Black", sans-serif;
 }
 article a {
-    color: #8cff00;
+    color: #ff0000;
      font-family: "Bungee", sans-serif;
 }
 article a:hover{
@@ -173,6 +153,9 @@ article p a {
 
 .carrossel {
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .list {
     width: 70vw;
@@ -190,4 +173,6 @@ article p a {
 .px {
     width: 700px;
     height: 500px;
+    border-radius: 20px;
+    border: 1px solid white;
 }
