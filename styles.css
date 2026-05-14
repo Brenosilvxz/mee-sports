@@ -83,7 +83,7 @@ header nav ul a:hover {
 .conteudo {
         position: absolute;
         width: 70%;
-        right: 550px;
+        right: 100px;
         height: 100%;
         display: flex;
         flex-direction: column;
@@ -102,7 +102,6 @@ header nav ul a:hover {
 }
 .conteudo p {
     font-size: 15px;
-    padding-right: 137px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .information {
@@ -138,24 +137,9 @@ header nav ul a:hover {
 
 .number {
     font-size: 5em;
+    font-family: "League Gothic", sans-serif;
 }
 
-.carrossel ul {
-    display: flex;
-    gap: 15px;
-}
-
-.carrossel li {
-
-    width: 50px;
-    height: 5px;
-    background-color: rgb(150, 16, 16);
-    border-radius: 5px;
-    transition: 0.5s;
-}
-li .active {
-    background-color: #fff;
-}
 .arrows button i{
     color: black;
     font-size: 30px;
@@ -184,38 +168,67 @@ li .active {
     background-color: #fff;
 }
 
-.carrossel {
-
-}
-.list {
-
-}
 
 .item {
     transform: translateX(100vw);
     transition: 0.5s;
+    opacity: 0;
      
 }
 
 .carroselimg {
     transition: 0.5s;
     transition-delay: 0.3s;
+    opacity: 0;
 }
 
 .conteudo h2 {
     transform: translateX(200px);
     transition: 0.7s;
     transition-delay: 0.3s;
+    opacity: 0;
 }
 .conteudo p {
     transition-delay: 0.9s;
+    opacity: 0;
 }
 .conteudo .information {
     transition-delay: 0.11s;
+    opacity: 0;
 }
 
-.carrosel {
-    &
+.list {
+    & .active {
+        transform: translateX(0);
+        transition: 0.5s;
+        opacity: 1;
+    }
+    & .conteudo {
+         transform: translateX(200px);
+         transition: 0.7s;
+         transition-delay: 0.3s;
+    }
+    & .conteudo p {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    & .carroselimg {
+        
+    }
+    & .conteudo h2 {
+         transform: translateX(0);
+         opacity: 1;
+    }
+    & .conteudo .information {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.carousel img {
+    border-radius: 10px;
+    height: 300px;
+    width: 100%;
 }
 
 .voltar {
@@ -223,4 +236,5 @@ li .active {
     display: flex;
     align-items: center;
     justify-content: center;
+    background: grey;
 }
