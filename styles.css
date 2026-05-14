@@ -15,7 +15,7 @@ body {
     z-index: 2;
 }
 .px {
-    opacity: 0.03;
+    opacity: 0.10;
 }
 
 header {
@@ -81,7 +81,6 @@ header nav ul a:hover {
 
  
 .conteudo {
-        position: absolute;
         width: 70%;
         right: 100px;
         height: 100%;
@@ -227,7 +226,7 @@ header nav ul a:hover {
 
 .carousel img {
     border-radius: 10px;
-    height: 300px;
+    height: 400px;
     width: 100%;
 }
 
