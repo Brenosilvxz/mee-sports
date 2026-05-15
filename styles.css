@@ -362,14 +362,43 @@ font-size: 20px;
     width: 75%;
     height: 100%;
 }
+
+.box1 h2 {
+    margin-left: 240px;
+    margin-top: 50px;
+    display: flex;
+    margin-top: px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px black;
+}
 .box img {
     width: 75%;
     height: 100%;
+    margin-top: -170px;
+   
 }
 
 .box h2 {
-    margin-left: 250px;
+    margin-left: 240px;
+    margin-top: 50px;
+    display: flex;
+    margin-top: px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px black;
 }
+.box h3 {
+    margin-left: 240px;
+    display: flex;
+    margin-top: px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box h4 {
+    margin-left: 240px;
+    display: flex;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 
 .box2 img {
     width: 75%;
