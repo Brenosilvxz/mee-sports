@@ -338,9 +338,53 @@ font-size: 20px;
     background-color: #fff;
     cursor: pointer;
 }
-.detalhes h1 h2 h3 p:hover {
 
+.box {
+    width: 400px;
+    height: 370px;
+    background: linear-gradient(20deg, #8cbaff, rgb(71, 101, 184));
+    position: absolute;
+    margin-top: -460px;
+    left: 40px;
+    border-radius: 20px;
 }
+.box1 {
+    width: 400px;
+    height: 410px;
+    background: linear-gradient(20deg,  #8cbaff, rgb(71, 101, 184));
+    position: absolute;
+    margin-top: -500px;
+    margin-left: 40%;
+    border-radius: 20px;
+}
+
+.box1 img {
+    width: 75%;
+    height: 100%;
+}
+.box img {
+    width: 75%;
+    height: 100%;
+}
+
+.box h2 {
+    margin-left: 250px;
+}
+
+.box2 img {
+    width: 75%;
+    height: 100%;
+}
+.box2 {
+    width: 400px;
+    height: 340px;
+    background: linear-gradient(20deg, rgb(156, 33, 33), rgb(90, 15, 12));
+    position: absolute;
+    margin-top: -430px;
+    right: 40px;
+    border-radius: 20px;
+}
+
 
 .voltar {
     font-size:30px;

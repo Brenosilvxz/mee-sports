@@ -1,33 +1,48 @@
-let prevButton = document.getElementById("prev")
-let nextButton = document.getElementById("next")
-let carrossel = document.querySelector('.carrossel')
-let items = carrossel.querySelectorAll('.list .item')
-let indicator = document.querySelector('.indicators')
-
+const prevButton = document.getElementById("prev")
+const nextButton = document.getElementById("next")
+const carrossel = document.querySelector(".carrossel")
+const items = carrossel.querySelectorAll(".list .item")
+const indicator = document.querySelector(".indicators .number")
 
 let active = 0
-let firstPosition = 1
-let lastPosition = items.lenght -1
+const lastPosition = items.length - 1
 
-nextButton.onclick = () => {
-    let itemOld = carrossel.querySelector('.list .item.active')
-    itemOld.classList.remove('active')
-    
-    //if
-    active = active + 1 > lastPosition ? 0 : active + 1
-    items[active].classList.add('active')
+function updateCarousel() {
 
-    indicator.querySelector('.number').innerHTML = '0' + (active + 1)
-    
+    // remove active de todos
+    items.forEach(item => {
+        item.classList.remove("active")
+    })
+
+    // adiciona no item atual
+    items[active].classList.add("active")
+
+    // indicador
+    indicator.innerHTML = "0" + (active + 1)
 }
-prevButton.onclick = () => {
-    let itemOld = carrossel.querySelector('.list .item.active')
-    itemOld.classList.remove('active')
-    
-    //if
-    active = active - 1 < firstPosition ? lastPosition : active - 1
-    items[active].classList.add('active')
 
-     indicator.querySelector('.number').innerHTML = '0' + (active + 2 - 1)
 
-}
+// NEXT
+nextButton.addEventListener("click", () => {
+
+    if (active >= lastPosition) {
+        active = 0
+    } else {
+        active++
+    }
+
+    updateCarousel()
+})
+
+
+// PREV
+prevButton.addEventListener("click", () => {
+
+    if (active <= 0) {
+        active = lastPosition
+    } else {
+        active--
+    }
+
+    updateCarousel()
+})
