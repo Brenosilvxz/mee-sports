@@ -361,6 +361,14 @@ font-size: 20px;
 .box1 img {
     width: 75%;
     height: 100%;
+    margin-top: -117px;
+}
+.box1 .paislogo {
+    position: relative;
+    width: 10%;
+    height: 10%;
+    margin-bottom:240px;
+    margin-left: -67px;
 }
 
 .box1 h2 {
@@ -371,10 +379,19 @@ font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     text-shadow: 2px 2px black;
 }
+
+.box1 h3 {
+margin-left: 240px;
+ text-shadow: 2px 2px black;
+}
+.box1 h4 {
+   margin-left: 240px; 
+    text-shadow: 2px 2px black;
+}
 .box img {
     width: 75%;
     height: 100%;
-    margin-top: -170px;
+    margin-top: -146px;
    
 }
 
@@ -391,18 +408,40 @@ font-size: 20px;
     display: flex;
     margin-top: px;
     font-family: Arial, Helvetica, sans-serif;
+     text-shadow: 2px 2px black;
 }
 .box h4 {
     margin-left: 240px;
     display: flex;
-    margin-top: 20px;
     font-family: Arial, Helvetica, sans-serif;
+     text-shadow: 2px 2px black;
+}
+.box .paislogo {
+position: relative;
+width: 10%;
+height: 10%; 
+margin-top: -130px; 
 }
 
 
 .box2 img {
     width: 75%;
     height: 100%;
+    margin-top: -167px;
+}
+
+.box2 h2 {
+    text-shadow: 2px 2px black;
+    margin-left: 220px;
+    margin-top: 100px;
+}
+.box2 h3 {
+    margin-left: 220px;
+    text-shadow: 2px 2px black;
+}
+.box2 h4 {
+    margin-left: 220px;
+    text-shadow: 2px 2px black;
 }
 .box2 {
     width: 400px;
