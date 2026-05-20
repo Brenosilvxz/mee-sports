@@ -570,3 +570,159 @@ font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 40px;
     border-radius: 20px;
 }
+
+
+.times {
+    display: flex;
+    gap: 4rem;
+    margin-left: 400px;
+}
+.times2 {
+    display: flex;
+    gap: 4rem;
+    margin-left: 500px;
+    margin-top: -50px;
+}
+
+.equipes1 {
+    width: 7%;
+    height: 10%;
+    margin-left: 20px;
+    margin-top: -120px;
+}
+.equipes2 {
+    width: 7%;
+    height: 10%;
+    margin-top: -130px;
+}
+.equipes3{
+    width: 7%;
+    height: 10%;
+    margin-top: -150px;
+}
+.equipes4{
+    width: 7%;
+    height: 10%;
+    margin-top: -150px;
+}
+.equipes5{
+    width: 7%;
+    height: 10%;
+    margin-top: -130px;
+}
+.equipes6{
+    width: 4%;
+    height: 5%;
+    margin-top: -140px;
+}
+
+.equipes7{
+    width: 7%;
+    height: 10%;
+    margin-left: 20px;
+}
+.equipes8{
+    width: 5%;
+    height: 8%;
+    margin-top: -5px;
+}
+.equipes9{
+    width: 5%;
+    height: 8%;
+    margin-top: -5px;
+}
+.equipes10{
+    width: 8%;
+    height: 10%;
+    margin-top: -5px;
+}
+.equipes11{
+    width: 10%;
+    height: 12%;
+    margin-top: -15px;
+    margin-left: -40px;
+}
+
+.squads {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+}
+.squads2 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 1070px;
+    margin-top: -110px;
+}
+.squads2 p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    width: 620px;
+    background-image: linear-gradient(100deg, rgb(172, 31, 31), rgb(61, 15, 15));
+    display: flex;
+}
+.squads p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    width: 620px;
+    background-image: linear-gradient(100deg, rgb(172, 31, 31), rgb(61, 15, 15));
+    display: flex;
+}
+
+.lojaad {
+    width: 20%;
+    height: 20%;
+    margin-left: 75%;
+    border-radius: 20px;
+    margin-top: -284px;
+}
+
+.ad h2{
+    margin-left: 76%;
+    position: absolute;
+    width: 350px;
+    height: 100px;
+    font-family: "Archivo Black", sans-serif;
+    margin-top: -220px;
+    text-shadow: 3px 3px black;
+    
+}
+.ad p{
+    margin-left: 76%;
+    position: absolute;
+    width: 280px;
+    height: 100px;
+    font-family: "Archivo Black", sans-serif;
+    margin-top: -140px;
+}
+.ad button {
+    font-family: "Archivo Black", sans-serif;
+    margin-left: 82%; 
+    text-align: center;
+    position: absolute;
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+    background-color: rgb(156, 36, 36);
+    border: none;
+    margin-top: 120px;
+}
+
+.ad button:hover {
+    background-color: #fff;
+    border: none;
+}
+.ad button a {
+    color: black;
+    cursor: pointer;
+}
+.background {
+    position: relative;
+    width: 40%;
+    height: 30%;
+    margin-top: 150px;
+    border-radius: 20px;
+    margin-left: 500px;
+}
+.background:hover {
+scale: 1.2;
+}
+
