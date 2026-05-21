@@ -471,7 +471,7 @@ margin-left: 220px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: grey;
+    background: linear-gradient(100deg, rgb(159, 23, 23), rgb(175, 66, 11))
 }
 
 .background {
@@ -481,10 +481,11 @@ margin-left: 220px;
 .ad {
     position: absolute;
     filter: blur(0.80px);
+    margin-top: 30px;
 }
 .ad:hover {
     scale: 1.2;
-    margin-top: 120px;
+    margin-top: 170px;
     margin-left: 70px;
     filter: none;
 }
@@ -537,7 +538,7 @@ font-family: "Archivo Black", sans-serif;
     position: absolute;
 }
 .equipes3 {
-    width: 8%;
+    width: 7%;
     height: 10%;
     margin-left: 50%;
     margin-top: -662px;
@@ -600,3 +601,51 @@ font-family: "Archivo Black", sans-serif;
     position: absolute;
 }
 
+.equipes1:hover {
+    scale: 1.5;
+    cursor: pointer;
+}
+.equipes2:hover {
+    scale: 1.5;
+}
+.equipes3:hover {
+    scale: 1.5;
+    cursor: pointer;
+}
+.equipes4:hover {
+    scale: 1.5;
+}
+.equipes5:hover {
+    scale: 1.5;
+}
+.equipes6:hover {
+    scale: 1.5;
+}
+.equipes7:hover {
+    scale: 1.5;
+}
+.equipes8:hover {
+    scale: 1.5;
+}
+.equipes9:hover {
+    scale: 1.5;
+}
+.equipes10:hover {
+    scale: 1.5;
+}
+.equipes11:hover {
+    scale: 1.5;
+}
+
+.squads {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 520px;
+    margin-left: 450px;
+    margin-top: -550px;
+}
+.squads2 {
+    margin-left: 450px;
+    width: 520px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
