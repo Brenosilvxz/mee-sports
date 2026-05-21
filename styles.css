@@ -538,21 +538,21 @@ font-family: "Archivo Black", sans-serif;
     position: absolute;
 }
 .equipes3 {
-    width: 7%;
+    width: 6%;
     height: 10%;
     margin-left: 50%;
     margin-top: -662px;
     position: absolute;
 }
 .equipes4 {
-    width: 7%;
+    width: 6%;
     height: 10%;
     margin-left: 60%;
     margin-top: -662px;
     position: absolute;
 }
 .equipes5 {
-    width: 6%;
+    width: 5%;
     height: 10%;
     margin-left: 70%;
     margin-top: -662px;
@@ -640,11 +640,11 @@ font-family: "Archivo Black", sans-serif;
 .squads {
     font-family: Arial, Helvetica, sans-serif;
     width: 520px;
-    margin-left: 450px;
+    margin-left: 510px;
     margin-top: -550px;
 }
 .squads2 {
-    margin-left: 450px;
+    margin-left: 510px;
     width: 520px;
     margin-top: 20px;
     font-family: Arial, Helvetica, sans-serif;
