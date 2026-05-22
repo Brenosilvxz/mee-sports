@@ -614,6 +614,7 @@ font-family: "Archivo Black", sans-serif;
 }
 .equipes4:hover {
     scale: 1.5;
+    cursor: pointer;
 }
 .equipes5:hover {
     scale: 1.5;
