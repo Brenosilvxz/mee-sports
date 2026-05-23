@@ -32,7 +32,7 @@
     box-shadow: 2px 2px yellow;
 }
 h2 {
-    color: #ffefef;
+    color: #000000;
     margin-top: -100px;
     font-family: "Merriweather", serif;
 }
@@ -76,6 +76,28 @@ margin-top: -300px;
 .header {
     width: 100%;
     height: 70%;
+    border: 2px solid rgb(95, 192, 34);
+    box-shadow: 2px 2px yellow; 
+
+}
+.textoMcLaren {
+    margin-top: -550px;
+    margin-left: 30px;
+    font-size: 30px;
+}
+.textoMcLaren p  {
+background: none;
+border: none;
+font-family: "Archivo Black", sans-serif;
+width: 800px;
+color: #fff;
+
+}
+.textoMcLaren h2  {
+background: none;
+border: none;
+font-family: "Archivo Black", sans-serif;
+
 }
 .painel {
     width: 15%;
@@ -85,4 +107,30 @@ margin-top: -300px;
     border: 2px solid rgb(95, 192, 34);
     box-shadow: 2px 2px yellow; 
 
+}
+.willians {
+   width: 50%; 
+   margin-left: 30px;
+   border: 2px solid rgb(95, 192, 34);
+   box-shadow: 2px 2px yellow; 
+    margin-top: 70px;
+}
+.willians2 {
+    width: 20%;
+    margin-left: 55%;
+    margin-top: 10px;
+    border: 2px solid rgb(95, 192, 34);
+    box-shadow: 2px 2px yellow; 
+
+}
+.texto3 {
+margin-left: 55%;
+margin-top: -550px;
+}
+.texto4 {
+margin-left: 76%;
+margin-top: -260px;
+}
+.texto4 p {
+    width: 300px;
 }
