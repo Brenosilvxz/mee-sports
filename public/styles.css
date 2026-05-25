@@ -651,3 +651,9 @@ font-family: "Archivo Black", sans-serif;
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.sennaback {
+    background: rgba(0, 0, 0, 0.267);
+}
+.backLoja {
+    background: white;
+}
