@@ -15,11 +15,17 @@ body {
     margin-left: 70%;
     border: 2px solid rgb(151, 148, 141);
     margin-top: -400px;
+    opacity: 0;
 }
 .img3 {
     width: 20%;
     border-radius: 20px;
     margin-left: 70%;
-    border: 2px solid rgb(151, 148, 141);
-    margin-top: -400px;
+    border: 2px solid rgb(51, 207, 255);
+    margin-top: -390px;
+    margin-bottom: 30px;
+    opacity: 0;
+}
+.seta1  {
+
 }
