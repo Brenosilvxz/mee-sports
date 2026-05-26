@@ -1,0 +1,31 @@
+body {
+    max-width: 1513px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.img1 {
+    width: 20%;
+    margin-top: 200px;
+    border-radius: 20px;
+    margin-left: 70%;
+    border: 2px solid orange;
+}
+.img2 {
+    width: 20%;
+    border-radius: 20px;
+    margin-left: 70%;
+    border: 2px solid rgb(151, 148, 141);
+    margin-top: -400px;
+    opacity: 0;
+}
+.img3 {
+    width: 20%;
+    border-radius: 20px;
+    margin-left: 70%;
+    border: 2px solid rgb(51, 207, 255);
+    margin-top: -390px;
+    margin-bottom: 30px;
+    opacity: 0;
+}
+.seta1  {
+
+}
