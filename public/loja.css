@@ -5,7 +5,7 @@ body {
 }
 .img1 {
     width: 20%;
-    margin-top: 00px;
+    margin-top: 200px;
     border-radius: 20px;
     margin-left: 75%;
     border: 3px solid orange;
@@ -41,14 +41,23 @@ body {
     background: black;
     border: 1px solid rgb(255, 255, 255);
 }
+.setas button:hover {
+    background-color: red;
+}
 .circle {
     position: relative;
-   
+}
+.logo {
+    width: 30%;
+    margin-top: -500px;
+    margin-bottom: 200px;
+    margin-left: -40px;
+    filter: drop-shadow(5px 5px  rgba(255, 244, 244, 0.108));
 }
 .circle img {
     width: 80%;
     height: 40%;
-    margin-top: -640px;
+    margin-top: -840px;
     margin-bottom: 200px;
     position: relative;
     z-index: -100;
@@ -57,15 +66,17 @@ body {
 .subheader {
     margin-top: 130px;
     color: black;
-    margin-left: 500px;
+    margin-left: 200px;
     display: flex;
     justify-content: space-between;
     background-color: rgb(255, 246, 246);
-    width: 470px;
+    width: 890px;
     height: 40px;
     border: 1px solid black;
     padding-top: 10px;
-    filter: drop-shadow(10px 10px  rgba(0, 0, 0, 0.108))
+    filter: drop-shadow(10px 10px  rgba(0, 0, 0, 0.108));
+    position: fixed;
+    z-index: 200;
 }
 .subheader ul li a {
     color: black;
@@ -75,7 +86,7 @@ body {
     padding-left: 10px;
 }
 .subheader ul li a:hover {
-    color: black;
+    color: rgb(255, 0, 0);
     font-family: "Archivo Black", sans-serif;
     text-transform: uppercase;
     font-size: 20px;
@@ -91,16 +102,17 @@ body {
 
 .produto3 {
     width: 10%;
-    margin-top: -190px;
+    margin-top: -200px;
     margin-left: 55%;
     border: 1px solid black;
+    margin-bottom: 100px;
 }
 .card3 h2 {
     color: black;
     margin-left: 55%;
     width: 152px;
     border: 1px solid black;
-    margin-top: -5px;
+    margin-top: -105px;
 }
 .card3 button {
     border-radius: 15px;
@@ -166,6 +178,84 @@ body {
     border: 1px solid black;
     width: 100px;
 }
+.produto4 {
+    width: 10%;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    margin-left: 33%;
+    border: 1px solid black;
+}
+
+.card4 h2 {
+    color: black;
+    margin-left: 33%;
+    width: 151px;
+    border: 1px solid black;
+    margin-top: -105px;
+}
+
+.card4 button {
+    border-radius: 15px;
+    color: rgb(255, 248, 248);
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(237, 208, 21);
+    border: none;
+    margin-left: 35%;
+    border: 1px solid black;
+    width: 100px;
+}
+.produto5 {
+    width: 10%;
+    margin-top: -233px;
+    margin-bottom: 100px;
+    margin-left: 44%;
+    border: 1px solid black;
+}
+
+.card5 h2 {
+    color: black;
+    margin-left: 44%;
+    width: 151px;
+    border: 1px solid black;
+    margin-top: -105px;
+}
+
+.card5 button {
+    border-radius: 15px;
+    color: rgb(255, 248, 248);
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(194, 32, 32);
+    border: none;
+    margin-left: 46%;
+    border: 1px solid black;
+    width: 100px;
+}
+.produto6 {
+    width: 10%;
+    margin-top: -234px;
+    margin-bottom: 100px;
+    margin-left: 55%;
+    border: 1px solid black;
+}
+
+.card6 h2 {
+    color: black;
+    margin-left: 55%;
+    width: 151px;
+    border: 1px solid black;
+    margin-top: -105px;
+}
+
+.card6 button {
+    border-radius: 15px;
+    color: rgb(255, 248, 248);
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(53, 4, 4);
+    border: none;
+    margin-left: 57%;
+    border: 1px solid black;
+    width: 100px;
+}
 
 
 .bx1{
@@ -221,4 +311,33 @@ body {
 .bx3 i {
     color: red;
     font-size: 40px;
+}
+.painel img {
+    width: 20%;
+    filter: drop-shadow(10px 10px rgba(0, 0, 0, 0.2));
+    margin-left: 75%;
+    margin-top: -600px;
+    margin-bottom: 300px;
+    border-radius: 20px;
+    z-index: -1;
+    position: relative;
+    border: 3px solid black;
+}
+.painel h2 {
+    color: rgb(255, 241, 241);
+    margin-top: -750px;
+    margin-bottom: 300px;
+    margin-left: 80%;
+    z-index: 100;
+    width: 200px;
+    text-shadow: 2px 2px black;
+}
+.miniheader img {
+    width: 40%;
+    margin-top: -800px;
+    margin-bottom: 600px;
+    margin-left: 28%;
+    border-radius: 20px;
+    border: 3px solid black;
+    filter: drop-shadow(10px 10px rgba(0, 0, 0, 0.2));
 }
