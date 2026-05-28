@@ -657,3 +657,13 @@ font-family: "Archivo Black", sans-serif;
 .backLoja {
     background: white;
 }
+
+li a i{
+ margin-left: 6000%;  
+ width: 15px;
+ cursor: pointer;
+ transform: scale(2);
+}
+li a i:hover {
+    color: red;
+}
