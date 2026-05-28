@@ -9,7 +9,7 @@ body {
     border-radius: 20px;
     margin-left: 75%;
     border: 3px solid orange;
-    opacity: 0;
+    opacity: ;
 }
 .img2 {
     width: 20%;
@@ -17,6 +17,7 @@ body {
     margin-left: 75%;
     border: 3px solid rgb(151, 148, 141);
     margin-top: -400px;
+    opacity: ;
 }
 .img3 {
     width: 20%;
@@ -25,6 +26,7 @@ body {
     border: 3px solid rgb(51, 207, 255);
     margin-top: -390px;
     margin-bottom: 30px;
+    opacity: 0;
 }
 .setas {
     margin-top: -250px;
