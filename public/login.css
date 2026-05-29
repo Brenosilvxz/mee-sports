@@ -9,13 +9,13 @@ body {
 form {
     display: flex;
     flex-direction: column;
-    width: 13%;
+    width: 17%;
     text-align: center;
     justify-content: center;
-    margin-left: 43%;
+    margin-left: 40%;
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(0, 0, 0);
-    height: 350px;
+    height: 370px;
     border: 1px solid red;
     border-radius: 20px;
 }
@@ -35,7 +35,7 @@ button {
     color: #fff;
     font-family: "Archivo Black", sans-serif;
     border: none;
-    margin-left: 50px;
+    margin-left: 60px;
     border: 1px solid white;
 }
 a {
@@ -50,7 +50,7 @@ a {
 h2 {
     font-size: 15px;
     margin-top: 10px;
-    margin-left: -150px;
+    margin-left: -200px;
     margin-bottom: -10px;
 }
 .circle {
@@ -60,5 +60,26 @@ h2 {
 }
 form img {
     width: 40%;
-    margin-left: 60px;
+    margin-left: 90px;
+}
+.piloto {
+    width: 30%;
+    opacity: 0.2;
+    margin-top: -540px;  
+    position: absolute;
+}
+.capacete {
+    width: 40%;
+    margin-top: -700px;
+    margin-left: 55%;
+    position: relative;
+    z-index: -1;
+    opacity: 0.7;
+}
+.car {
+    margin-top: -800px;
+    margin-bottom: 670px;
+    opacity: 1;
+    width: 15%;
+    margin-left: 100px;
 }

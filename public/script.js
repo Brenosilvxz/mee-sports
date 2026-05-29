@@ -47,5 +47,5 @@ prevButton.addEventListener("click", () => {
     updateCarousel()
 
 
-    setinterval(() => movercarrossel(1),7000)
+    setinterval(() => item(1),7000)
 })
