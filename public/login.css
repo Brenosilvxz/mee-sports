@@ -74,12 +74,5 @@ form img {
     margin-left: 55%;
     position: relative;
     z-index: -1;
-    opacity: 0.7;
-}
-.car {
-    margin-top: -800px;
-    margin-bottom: 670px;
-    opacity: 1;
-    width: 15%;
-    margin-left: 100px;
+    opacity: 0.5;
 }
