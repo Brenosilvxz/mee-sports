@@ -15,8 +15,11 @@ body {
     position: relative;
     z-index: 2;
 }
-.px {
-    opacity: 0.10;
+
+.circle1 {
+    width: 100%;
+    margin-left: -450px;
+    margin-top: -180px;
 }
 
 header {
@@ -54,10 +57,6 @@ header nav ul a:hover {
 
 }
 
-.carrosel {
-    height: 100vh;
-    position: relative;
-}
  .list {
         width: 70vh;
         height: 50%;
@@ -65,35 +64,44 @@ header nav ul a:hover {
  }
 
  .item {
-        position: absolute;
-        inset: 0;
  }
 .carrosselimg {
-    position: absolute;
-    top: 50%;
     transform: translateY(-50%);
  } 
  .carrossel img {
     width: 700px;
     height: 500px;
-    margin-left: 500px;
-
+    margin-top: -200%;
+    margin-bottom: 150px;
+    margin-left: -60px;
+ }
+ .carrosselimg2 {
+    width: 700px;
+    height: 500px;
+    margin-top: -4%;
+    margin-bottom: 150px;
+ }
+ .carrosselimg3 {
+    width: 700px;
+    height: 500px;
+    margin-top: -0%;
  }
 
  
 .conteudo {
-        width: 70%;
-        right: 100px;
+        width: 80%;
         height: 100%;
         display: flex;
         flex-direction: column;
-        justify-content: end;
-        align-items: end;
-        gap: 5px;
-        margin-top: -40px
+        margin-top: -150px;
+        margin-left: -200px;
+        
  }
  .conteudo button a {
     color: black;
+ }
+ .conteudo button {
+    margin-top: 10px;
  }
  .conteudo1 button a {
     color: black;
@@ -104,14 +112,11 @@ header nav ul a:hover {
 .conteudo h2 {
     font-size: 2em;
     font-family: Arial, Helvetica, sans-serif;
-    padding-right: 60%;
-    
-    
 }
 .conteudo p {
     font-size: 20px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    padding-right:27%;
+   
 }
 
 .information {
@@ -125,6 +130,12 @@ header nav ul a:hover {
     font-weight: bold;
     margin-right: 66%;
     
+}
+
+.conteudo1 {
+    margin-top: -1270px;
+    width: 180%;
+    margin-left: -300px;
 }
 
 .conteudo1 h2 {
@@ -153,19 +164,20 @@ header nav ul a:hover {
     font-weight: bold;
     margin-left: 30%;
     margin-top: 5px;
+    margin-top: 10px;
 }
-
+.conteudo2 {
+ margin-top: -620px;
+}
 .conteudo2 h2 {
     font-size: 2em;
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: 650px;
-    margin-left: 30%;
 }
 
 .conteudo2 p {
     font-size: 20px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    margin-left: 30%;
+   
 }
 
 .information2 {
@@ -177,37 +189,40 @@ header nav ul a:hover {
     background-color: rgb(150, 16, 16);
     cursor: pointer;
     font-weight: bold;
-    margin-left: 30%;
-    margin-top: 5px;
+    margin-left: -10px;
+    margin-top: 10px;
 }
 
 .information:hover {
     background-color: #fff;
+    cursor: pointer;
 }
 .information1:hover {
     background-color: #fff;
+    cursor: pointer;
 }
 .information2:hover {
     background-color: #fff;
+    cursor: pointer;
 }
 
 .indicators {
-    position: absolute;
-    top: 50%;
     height: 200px;
     width: 90vw;
-    left: 50%;
     transform: translateY(50%);
     display: flex;
-    flex-direction: column;
-    justify-content: end;
     left: 70px;
     gap: 15px;
+    margin-top: -500px;
+    color: black;
+    z-index: 1000;
 }
 
 .number {
     font-size: 5em;
     font-family: "League Gothic", sans-serif;
+    color: black;
+    margin-left: 70px;
 }
 
 .arrows button i{
@@ -339,179 +354,95 @@ font-size: 20px;
     cursor: pointer;
 }
 
-.box {
-    width: 400px;
-    height: 370px;
-    background: linear-gradient(20deg, #8cbaff, rgb(71, 101, 184));
-    position: absolute;
-    margin-top: -460px;
-    left: 40px;
-    border-radius: 20px;
-}
-.box1 {
-    width: 400px;
-    height: 410px;
-    background: linear-gradient(20deg,  #8cbaff, rgb(71, 101, 184));
-    position: absolute;
-    margin-top: -500px;
-    margin-left: 40%;
-    border-radius: 20px;
-}
-
-.box1 img {
-    width: 75%;
-    height: 100%;
-    margin-top: -120px;
-}
-.box1 .paislogo {
-    position: relative;
-    width: 10%;
-    height: 10%;
-    margin-bottom:240px;
-    margin-left: -67px;
-}
-
-.box1 h2 {
-    margin-left: 240px;
-    margin-top: 50px;
-    display: flex;
-    margin-top: px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-shadow: 2px 2px black;
-}
-
-.box1 h3 {
-margin-left: 240px;
- text-shadow: 2px 2px black;
-}
-.box1 h4 {
-   margin-left: 240px; 
-    text-shadow: 2px 2px black;
-}
-.box img {
-    width: 75%;
-    height: 100%;
-    margin-top: -150px;
-   
-}
-
-.box h2 {
-    margin-left: 240px;
-    margin-top: 50px;
-    display: flex;
-    margin-top: px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-shadow: 2px 2px black;
-}
-.box h3 {
-    margin-left: 240px;
-    display: flex;
-    margin-top: px;
-    font-family: Arial, Helvetica, sans-serif;
-     text-shadow: 2px 2px black;
-}
-.box h4 {
-    margin-left: 240px;
-    display: flex;
-    font-family: Arial, Helvetica, sans-serif;
-     text-shadow: 2px 2px black;
-}
-.box .paislogo {
-position: relative;
-width: 10%;
-height: 10%; 
-margin-top: -900px;
-margin-bottom: 200px;
-margin-left: 240px;
-}
-
-
-.box2 img {
-    width: 75%;
-    height: 100%;
-    margin-top: -171px;
-    margin-bottom: ;
-}
-
-.box2 h2 {
-    text-shadow: 2px 2px black;
-    margin-left: 220px;
+.norris {
+    width: 60%;
     margin-top: 100px;
+    margin-left: 70px;
 }
-.box2 h3 {
-    margin-left: 220px;
-    text-shadow: 2px 2px black;
+.antonelli {
+    width: 110%;
+    margin-top: 100px;
+    margin-left: -150px;
 }
-.box2 h4 {
-    margin-left: 220px;
-    text-shadow: 2px 2px black;
+.monaco {
+    width: 92%;
+    margin-top: 100px;
+    margin-left: -180px;
 }
-.box2 {
-    width: 400px;
-    height: 340px;
-    background: linear-gradient(20deg, rgb(156, 33, 33), rgb(90, 15, 12));
-    position: absolute;
-    margin-top: -430px;
-    right: 40px;
-    border-radius: 20px;
-}
-
-.box2 .paislogo {
-position: relative;
-width: 10%;
-height: 10%; 
-margin-top: -900px;
-margin-bottom: 150px;
-margin-left: 220px;
-}
-
-
-.voltar {
-    font-size:30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: linear-gradient(100deg, rgb(159, 23, 23), rgb(175, 66, 11))
-}
-
-.background {
-    opacity: 0.2;
+.card {
+    background: #a3a2a2;
+    color: black;
+    width: 470px;
+    margin-left: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -18px;
     position: relative;
 }
-.ad {
-    position: absolute;
-    filter: blur(0.80px);
-    margin-top: 30px;
+.card2 {
+    background: #a3a2a2;
+    color: black;
+    width: 510px;
+    margin-left: -180px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -2px;
 }
-.ad:hover {
-    scale: 1.2;
-    margin-top: 170px;
-    margin-left: 70px;
-    filter: none;
+.card3 {
+    background: #a3a2a2;
+    color: black;
+    width: 380px;
+    margin-left: -150px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -2px;
 }
+.card h2 {
+    color: black;
+}
+.card2 h2 {
+    color: black;
+}
+.card3 h2 {
+    color: black;
+}
+.aviso {
+    background: orange;
+    width: 120px;
+    margin: 80px;
+    font-family: "Archivo Black", sans-serif; 
+    margin-top: -360px;
+    z-index: 100;
+    position: relative;
+}
+.aviso2 {
+    background: rgb(255, 0, 0);
+    width: 120px;
+    margin: -180px;
+    font-family: "Archivo Black", sans-serif; 
+    margin-top: -360px;
+    z-index: 100;
+    position: relative;
+}
+.aviso3 {
+    background: rgb(39, 178, 190);
+    width: 120px;
+    margin: -150px;
+    font-family: "Archivo Black", sans-serif; 
+    margin-top: -352px;
+    z-index: 100;
+    position: relative;
+}
+.inicio {
+    display: flex;
+}
+
 
 .lojaad {
-    width: 40%;
+    width: 20%;
     height: 40%;
-    margin-top: -900px;
-    margin-bottom: 300px;
+    margin-bottom: 200px;
     border-radius: 20px;
-    margin-left: 40px;
+   margin-left: 70px;
     border: solid 1px #fff;
-}
-.ad button {
-    border: none;
-    font-size: 20px;
-    position: absolute;
-    background: linear-gradient(100deg, rgb(196, 31, 31), rgb(180, 120, 11));
-    margin-top: -300px;
-    border: 1px solid #fff;
-    border-radius: 5px;
-    margin-left: 140px;
-    width: 100px;
-}
-.ad button a {
-font-family: "Archivo Black", sans-serif;
+    margin-top: 150px;
 }
 .times1 {
     display: flex;
@@ -666,4 +597,10 @@ li a i{
 }
 li a i:hover {
     color: red;
+}
+.piloto {
+    margin-left: 70%;
+    margin-top: -570px;
+    margin-bottom: 70px;
+    width: 20%;
 }
