@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow: hidden;
+}
+
+#loader{
+    position: fixed;
+    inset: 0;
+    background: #0a0a0a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#loader h1{
+    color: #e10600;
+    font-size: 4rem;
+    margin-bottom: 30px;
+}
+
+.loading-bar{
+    width: 350px;
+    height: 8px;
+    background: #222;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.progress{
+    width: 0;
+    height: 100%;
+    background: #e10600;
+    animation: carregar 3s linear forwards;
+}
+
+@keyframes carregar{
+    from{
+        width: 0;
+    }
+
+    to{
+        width: 100%;
+    }
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 20%;
+}
