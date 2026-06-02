@@ -1,0 +1,313 @@
+h1 {
+    font-family: "Righteous", sans-serif; 
+    margin-top: 140px;
+    margin-left: 30px;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+.imagens {
+    display: flex;
+}
+.imagens img {
+    width: 15%;
+    height: 20%;
+    margin-left: 30px;
+    z-index: 100;
+    border: 2px solid white;
+}
+.conteudos {
+    margin-top: 0px;
+    background: rgb(154, 151, 151);
+    width: 400px;
+    border-radius: 15px;
+    margin-left: -10px;
+    position: relative;
+    z-index: 1;
+    border: 3px solid white;
+}
+.conteudos span {
+    margin-left: 30px;
+    font-family: "Archivo Black", sans-serif;
+}
+.conteudos h3 {
+    color: #000;
+    margin-left: 30px;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.conteudos p {
+    color: #000;
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.conteudos a {
+    margin-left: 270px;
+    margin-top: 10px;
+    font-family: "Archivo Black", sans-serif;
+    background-color: rgb(212, 92, 12);
+    text-align: center;
+    width: 120px;
+}
+
+
+
+.conteudos2 {
+    margin-top: 0px;
+    background: rgb(154, 151, 151);
+    width: 400px;
+    border-radius: 15px;
+    margin-left: -10px;
+    position: relative;
+    z-index: 1;
+    border: 3px solid white;
+}
+.conteudos2 span {
+    margin-left: 30px;
+    font-family: "Archivo Black", sans-serif;
+}
+.conteudos2 h3 {
+    color: #000;
+    margin-left: 30px;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.conteudos2 p {
+    color: #000;
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.conteudos2 a {
+    margin-left: 270px;
+    margin-top: 10px;
+    font-family: "Archivo Black", sans-serif;
+    background-color: rgb(212, 12, 12);
+    text-align: center;
+    width: 120px;
+}
+
+
+
+.conteudos3 {
+    margin-top: 0px;
+    background: rgb(154, 151, 151);
+    width: 400px;
+    border-radius: 15px;
+    margin-left: -10px;
+    position: relative;
+    z-index: 1;
+    border: 3px solid white;
+}
+.conteudos3 span {
+    margin-left: 30px;
+    font-family: "Archivo Black", sans-serif;
+}
+.conteudos3 h3 {
+    color: #000;
+    margin-left: 30px;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.conteudos3 p {
+    color: #000;
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.conteudos3 a {
+    margin-left: 270px;
+    margin-top: 10px;
+    font-family: "Archivo Black", sans-serif;
+    background-color: rgb(14, 112, 151);
+    text-align: center;
+    width: 120px;
+}
+
+.objeto{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transform: scale(1.15);
+    transition: opacity .8s ease,
+                transform 6s ease;
+}
+
+.objeto.active{
+    opacity: 1;
+    transform: scale(1);
+}
+
+.objeto img{
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+    margin-left: 750px;
+    margin-top: -600px;
+    margin-bottom: 150px;
+}
+.texto {
+    margin-left: 750px;
+    font-family: "Archivo Black", sans-serif;
+    margin-top: -150px;
+    
+}
+.prev,
+.next{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 100%;
+    background: rgba(225, 6, 0, 0.8);
+    color: white;
+    font-size: 28px;
+    cursor: pointer;
+    transition: 0.1s;
+    z-index: 10;
+}
+
+.prev{
+    margin-left: 690px;
+}
+
+.next{
+    right: 40px;
+}
+
+.prev:hover,
+.next:hover{
+    transform: translateY(-30%) scale(1.1);
+    background-color: aliceblue;
+}
+
+
+
+
+.tituloagenda h1 {
+    font-family: "Righteous", sans-serif; 
+    margin-top: 130px;
+    margin-left: 13%;
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-bottom: -140px;
+}
+
+.canada img {
+    width: 20%;
+    height: 20%;
+    border-radius: 20px;
+    margin-left: 13%;
+    position: relative;
+    z-index: -1;
+    margin-top: -170px;
+    opacity: 0.7;
+}
+.textosgp {
+    z-index: 100;
+    margin-top: 210px;
+    margin-left: 17%;
+    margin-bottom: 20px;
+}
+.textosgp h2 {
+     font-family: "Righteous", sans-serif; 
+     text-transform: uppercase;
+     font-size: 45px;
+     padding-top: 20px;
+}
+.textosgp h4 {
+    font-family: "Archivo Black", sans-serif;
+    padding-top: 20px;
+    margin-left: 20px;
+}
+.textosgp h3 {
+    font-family: "Archivo Black", sans-serif;
+    margin-top: -20px;
+    margin-left: -50px;
+}
+
+
+.monaco img {
+    width: 35%;
+    height: 30%;
+    border-radius: 20px;
+    margin-left: 57%;
+    position: relative;
+    z-index: -1;
+    margin-top: -170px;
+    margin-bottom: 390px;
+    opacity: 0.7;
+}
+.monaco .textosgp {
+    z-index: 100;
+    margin-left: 65%;
+    margin-bottom: 20px;
+    margin-top: -500px;
+}
+.monaco .textosgp h2 {
+     font-family: "Righteous", sans-serif; 
+     text-transform: uppercase;
+     font-size: 45px;
+     padding-top: 20px;
+}
+.monaco .textosgp h4 {
+    font-family: "Archivo Black", sans-serif;
+    padding-top: 20px;
+    margin-left: 20px;
+}
+.monaco .textosgp h3 {
+    font-family: "Archivo Black", sans-serif;
+    margin-top: -20px;
+    margin-left: -70px;
+}
+
+
+
+.barcelona img {
+    width: 30%;
+    height: 30%;
+    border-radius: 20px;
+    margin-left: 64%;
+    position: relative;
+    z-index: -1;
+    margin-top: -184px;
+    margin-bottom: 390px;
+    opacity: 0.7;
+}
+.barcelona .textosgp {
+    z-index: 100;
+    margin-left: 65%;
+    margin-bottom: 20px;
+    margin-top: -760px;
+}
+.barcelona .textosgp h2 {
+     font-family: "Righteous", sans-serif; 
+     text-transform: uppercase;
+     font-size: 35px;
+     padding-top: 20px;
+     margin-left: 30px;
+}
+.barcelona .textosgp h4 {
+    font-family: "Archivo Black", sans-serif;
+    padding-top: 20px;
+    margin-left: 160px;
+}
+.barcelona .textosgp h3 {
+    font-family: "Archivo Black", sans-serif;
+    margin-top: -20px;
+    margin-left: -0px;
+}
+
+.headerf1 {
+    margin-left: 28%;
+    margin-top: -300px;
+    margin-bottom: 20px;
+}
+.headerf1 img {
+    margin-left: 0%;
+    width: 60%;
+    border-radius: 20px;
+}
